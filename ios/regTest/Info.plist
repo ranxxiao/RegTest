@@ -38,7 +38,7 @@
 	<key>NSCameraUsageDescription</key>
 	<string>we need use camera</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>we need use microphone</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>

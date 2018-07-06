@@ -3,6 +3,7 @@ package com.regtest;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.rntensorflow.RNTensorFlowPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.imagepicker.ImagePickerPackage;
 import com.facebook.react.ReactNativeHost;
@@ -25,6 +26,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNTensorFlowPackage(),
             new VectorIconsPackage(),
             new ImagePickerPackage()
       );
